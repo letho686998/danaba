@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk-Spec: 11
+Extension-Name: jakarta.activation
+Implementation-Title: jakarta.activation
+Implementation-Vendor: Eclipse Foundation
+Implementation-Vendor-Id: com.sun
+Implementation-Version: 2.0.1
+Specification-Title: Jakarta Activation Specification
+Specification-Vendor: Eclipse Foundation
+Specification-Version: 2.0
+Bnd-LastModified: 1613118221395
+Bundle-Description: Jakarta Activation
+Bundle-DocURL: https://www.eclipse.org
+Bundle-License: http://www.eclipse.org/org/documents/edl-v10.php
+Bundle-ManifestVersion: 2
+Bundle-Name: Jakarta Activation
+Bundle-SymbolicName: com.sun.activation.jakarta.activation
+Bundle-Vendor: Eclipse Foundation
+Bundle-Version: 2.0.1
+DynamicImport-Package: *
+Export-Package: com.sun.activation.registries;version="2.0.1",jakarta.ac
+ tivation;version="2.0"
+Import-Package: com.sun.activation.registries;version="[2.0,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.1.1.202006162103
+
